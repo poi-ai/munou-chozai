@@ -36,8 +36,9 @@ img {
   height: 358px !important;
 }
 .contents {
-  margin: 0 30px 0px 30px;
+  margin: 0 max(50% - 567px, 30px);
   background: black;
+  display:  inline-block;
 }
 .sentence {
   margin: 40px 0 50px 10px;
